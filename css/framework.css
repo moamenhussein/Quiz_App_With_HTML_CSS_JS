@@ -1,0 +1,98 @@
+:root {
+    --fa-style-family-classic: "font awesome 5 free";
+    --blue-color: #0075ff;
+    --blue-alt-color: #0d69d5;
+    --orange-color: #f59e0b;
+    --green-color: #22c55e;
+    --red-color: #f44336;
+    --grey-color:#888;
+}
+/*Start Box*/
+.d-flex {
+    display: flex;
+}
+.align-center {
+    align-items: center;
+}
+.d-grid {
+    display: grid;
+}
+.gap-20 {
+    gap: 20px;
+}
+@media (max-width: 767px) {
+    .block-mobile {
+        display: block;
+    }
+}
+/*End Box*/
+/*Start padding + margin*/
+.p-10 {
+    padding: 10px;
+}
+.p-20 {
+    padding: 20px;
+}
+.p-15 {
+    padding: 15px;
+}
+.m-20 {
+    margin: 20px;
+}
+.mt-0 {
+    margin-top: 0;
+}
+.mt-5 {
+    margin-top: 5px;
+}
+/*End padding + margin*/
+/*Start Color*/
+.bg-white {
+    background-color: white;
+}
+.bg-eee {
+background-color: #EEE;
+}
+.c-black {
+    color: black;
+}
+/*End Color*/
+/*Start Position*/
+.p-relative {
+    position: relative;
+}
+/*End Position*/
+/*Start Font*/
+.txt-c {
+    text-align: center;
+}
+.fs-14 {
+    font-size: 14px;
+}
+@media (max-width: 767px) {
+    .txt-c-mobile {
+        text-align: center;
+    }
+}
+/*End Font*/
+/*Start Border*/
+.rad-6 {
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+/*End Border*/
+/*Start Width*/
+.w-full {
+    width: 100%;
+}
+/*End Width*/
+/*Start Coponents*/
+.between-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/*End Coponents*/
